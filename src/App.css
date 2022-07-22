@@ -1,0 +1,80 @@
+/*  */
+
+* {
+  border: none;
+  box-sizing: border-box;
+}
+body {
+  background-color: #e0e8ff;
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+}
+
+.order {
+  text-align: center;
+  font-family: sans-serif;
+  background-color: white;
+  width: 28.2rem;
+  height: 38em;
+  margin: auto;
+  margin-bottom: 6em;
+  margin-top: 6em;
+  border-radius: 10px;
+}
+
+.container {
+  text-align: center;
+  margin-top: 10em;
+  width: 28.1rem;
+  margin: auto;
+  padding: 2p;
+  border-radius: 10px 10px 0 0;
+}
+.changes {
+  width: 22rem;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #f0f0f3;
+  margin: auto;
+  border-radius: 10px;
+  font-family: sans-serif;
+}
+.annual {
+  display: flex;
+  margin-right: 4em;
+}
+
+.annualPlan {
+  margin-left: 1em;
+}
+
+.music {
+  height: 50px;
+  margin-top: 15px;
+  margin-left: 1rem;
+}
+
+.changess {
+  border-radius: 10px;
+  margin-right: 2em;
+}
+
+.proceed {
+  background-color: #382ae1;
+  color: white;
+  width: 350px;
+  border-radius: 5px;
+  height: 40px;
+  margin-top: 20px;
+  box-shadow: 0 8px 20px -10px blue;
+}
+
+.cancelOrder {
+  margin-top: 2rem;
+}
+
+a {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: black;
+}
